@@ -1,2 +1,2 @@
-# Algorithms-Library-C-
+# Algorithms-Library-CSharp
 Algorithms Library C#
