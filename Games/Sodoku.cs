@@ -1,10 +1,14 @@
 using System.Collections.Generic;
 
-namespace GameAlgorithms.Sudoku
+namespace Games.Sudoku
 {
     public class Sudoku
     {
-        //Validates Sudoku board
+        // Validates Sudoku board
+        // Time Complexity: O(1) for a standard 9x9 board (constant due to fixed size). 
+        //                  For a generalized n^2 x n^2 board, the complexity is O(n^4).
+        // Space Complexity: O(1) for a standard 9x9 board (constant due to fixed size). 
+        //                   For a generalized n^2 x n^2 board, the complexity is O(n^4).
         public bool ValidSudokuBoard(char[][] board)
         {
             HashSet<string> seen = new HashSet<string>();
