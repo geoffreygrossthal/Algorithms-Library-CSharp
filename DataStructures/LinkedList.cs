@@ -1,4 +1,4 @@
-namespace DataStructures.LinkedLists
+namespace DataStructures.LinkedList
 {
     // Class and methods for cycle detection using Tortoise and Hare algorithm.
     public class TortoiseAndHare
